@@ -50,6 +50,10 @@
 
 @media (max-width: 530px) {
 
+    .navbar {
+        position: static !important;
+    }
+
     .brand_img {
         width: 50px;
     }
@@ -78,7 +82,6 @@
 
     .navbar_container {
         flex-direction: column;
-
     }
 
     .brand_container {
@@ -89,5 +92,12 @@
 
     .navbar_button {
         padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .brand_container {
+        margin-right: 15%;
     }
 }

@@ -23,7 +23,12 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 395px) {
+
+    .pie-chart_block {
+        width: 370px;
+        height: 300px;
+    }
 
     .pie-chart_block .recharts-wrapper {
         width: 330px !important;
@@ -32,5 +37,26 @@
 
     .recharts-legend-wrapper {
         top: 10px !important;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .pie-chart_block {
+        width: 320px;
+        height: 300px;
+    }
+
+    .pie-chart_block .recharts-wrapper {
+        width: 300px !important;
+        height: 200px !important;
+    }
+
+    .recharts-legend-wrapper {
+        top: 5px !important;
+    }
+
+    .recharts-default-legend {
+        font-size: 14px;
     }
 }
