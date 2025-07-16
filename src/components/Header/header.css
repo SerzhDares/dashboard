@@ -32,6 +32,13 @@
     font-weight: 700;
 }
 
+@media (max-width: 1000px) and (orientation: landscape) {
+    
+        .navbar {
+        position: static !important;
+    }
+}
+
 
 @media (max-width: 768px) {
 

@@ -23,6 +23,10 @@
 
 @media (max-width: 530px) {
 
+    .bar_chart-block .recharts-responsive-container {
+        margin-left: -4%;
+    }
+
     .chart-title {
         text-align: center;
     }
