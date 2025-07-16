@@ -1,0 +1,30 @@
+.bar_chart-block {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.chart-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+@media (max-width: 1300px) {
+
+    .bar_chart-block {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .chart-title {
+        text-align: center;
+    }
+
+}

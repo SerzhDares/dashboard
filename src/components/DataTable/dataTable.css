@@ -1,0 +1,37 @@
+.table_block {
+    width: calc(70% - 50px);
+    margin-right: 50px;
+}
+
+.table-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.table_params_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total_users {
+    width: calc(50% - 10px);
+    background-color: #f4f4f5;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    
+    .table_block {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 440px) {
+    
+    .total_users {
+        font-size: 13px;
+    }
+}

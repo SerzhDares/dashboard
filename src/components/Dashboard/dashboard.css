@@ -1,0 +1,42 @@
+.main {
+    padding: 0 70px;
+}
+
+.table_text_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.visualization_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+
+    .visualization_block {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .main {
+        padding: 0 50px;
+    }
+
+    .table_text_block {
+        flex-direction: column;
+        align-items: center;
+   
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .main {
+        padding: 0 30px;
+    }
+}

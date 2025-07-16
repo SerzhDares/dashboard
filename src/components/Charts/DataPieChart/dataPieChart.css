@@ -1,0 +1,36 @@
+.pie-chart_block {
+    width: 400px;
+    height: 320px;
+}
+
+.pie-chart_title {
+    text-align: center;
+}
+
+.recharts-legend-wrapper {
+    right: -8px !important;
+}
+
+@media (max-width: 768px) {
+
+    .pie-chart_block .recharts-wrapper {
+        width: 380px !important;
+        height: 280px !important;
+    }
+
+    .recharts-legend-wrapper {
+        top: 35px !important;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .pie-chart_block .recharts-wrapper {
+        width: 330px !important;
+        height: 230px !important;
+    }
+
+    .recharts-legend-wrapper {
+        top: 10px !important;
+    }
+}
